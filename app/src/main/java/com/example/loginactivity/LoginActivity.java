@@ -24,5 +24,6 @@ public class LoginActivity extends Activity {
                 startActivity(i);
             }
         });
+
     }
 }
