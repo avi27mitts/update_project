@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/login3"
+        android:id="@+id/btn_customer_login"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="12dp"
@@ -15,13 +15,13 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="109dp"
         android:text="Customers Click Here"
-        app:layout_constraintBottom_toTopOf="@+id/profb"
+        app:layout_constraintBottom_toTopOf="@+id/btn_worker_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/profb"
+        android:id="@+id/btn_worker_login"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="21dp"
@@ -31,6 +31,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login3" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_customer_login" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
