@@ -68,14 +68,14 @@
                 android:layout_marginTop="10dip"
                 android:text="Login"/>
             <!-- Link to Registration Screen -->
+            <Button android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="New "/>
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btnregister"
-            android:layout_width="213dp"
-            android:layout_height="346dp"
-            android:text="New to Twitter? Register here" />
         <!-- Login Form Ends -->
 
         <!-- Login Form -->

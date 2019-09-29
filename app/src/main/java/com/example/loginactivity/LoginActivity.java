@@ -14,7 +14,7 @@ public class LoginActivity extends Activity {
         // setting default screen to login.xml
         setContentView(R.layout.login1);
 
-        Button registerScreen = (Button) findViewById(R.id.btnregister);
+        Button registerScreen = findViewById(R.id.btnRegister);
 
         // Listening to register new account link
         registerScreen.setOnClickListener(new View.OnClickListener() {
