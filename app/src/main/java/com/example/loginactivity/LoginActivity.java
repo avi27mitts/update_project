@@ -12,7 +12,7 @@ public class LoginActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // setting default screen to login.xml
-        setContentView(R.layout.login1);
+        setContentView(R.layout.activity_login);
 
         Button registerScreen = findViewById(R.id.btnRegister);
 
@@ -21,7 +21,7 @@ public class LoginActivity extends Activity {
 
             public void onClick(View v) {
                 // Switching to Register screen
-                Intent i = new Intent( getApplicationContext() , RegisterActivity.class) ;
+                Intent i = new Intent( LoginActivity.this , RegisterActivity.class) ;
                 startActivity(i);
             }
         });
