@@ -83,7 +83,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
                             Toast.makeText(LoginActivity.this, "Registration Failed ! Please try again", Toast.LENGTH_SHORT).show();
                         }
                     }
-                })
+                });
 
 
     }
@@ -91,7 +91,8 @@ public class LoginActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view){
         if(view==Login){
-            registerUser()
+            registerUser();
+
         }
 
     }
