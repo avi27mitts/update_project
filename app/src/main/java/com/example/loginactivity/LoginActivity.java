@@ -34,7 +34,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         if(view==btnLogin){
             registerUser()
         }
-        
+        if ()
     }
 
 
