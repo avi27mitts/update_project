@@ -13,7 +13,7 @@
         android:layout_marginStart="9dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="31dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="44dp"
         android:text="Type"
         app:layout_constraintBottom_toTopOf="@+id/tv4"
         app:layout_constraintEnd_toStartOf="@+id/tv2"
@@ -26,7 +26,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="33dp"
         android:layout_marginEnd="55dp"
-        android:layout_marginBottom="53dp"
+        android:layout_marginBottom="52dp"
         android:text="Per Day"
         app:layout_constraintBottom_toTopOf="@+id/tv5"
         app:layout_constraintEnd_toStartOf="@+id/tv3"
@@ -39,7 +39,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="29dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="53dp"
+        android:layout_marginBottom="51dp"
         android:text="Monthly"
         app:layout_constraintBottom_toTopOf="@+id/tv6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="11dp"
         android:layout_marginEnd="42dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="46dp"
         android:text="House Cleaning"
         app:layout_constraintBottom_toTopOf="@+id/tv7"
         app:layout_constraintEnd_toStartOf="@+id/tv5"
@@ -78,7 +78,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="47dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginBottom="22dp"
         android:text="Carpenter"
         app:layout_constraintBottom_toTopOf="@+id/tv13"
         app:layout_constraintEnd_toStartOf="@+id/tv11"
@@ -89,7 +89,7 @@
         android:id="@+id/tv11"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="53dp"
+        android:layout_marginEnd="49dp"
         android:layout_marginBottom="24dp"
         android:text="600"
         app:layout_constraintBottom_toTopOf="@+id/tv14"
@@ -101,8 +101,8 @@
         android:id="@+id/tv12"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="26dp"
         android:text="15000"
         app:layout_constraintBottom_toTopOf="@+id/tv15"
         app:layout_constraintEnd_toEndOf="parent"
@@ -128,17 +128,11 @@
         android:layout_height="0dp"
 
         android:layout_marginEnd="17dp"
-
-        android:layout_marginBottom="50dp"
-
+        android:layout_marginBottom="51dp"
         android:text="12000"
-
         app:layout_constraintBottom_toTopOf="@+id/tv9"
-
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toEndOf="@+id/tv5"
-
         app:layout_constraintTop_toBottomOf="@+id/tv3" />
 
 
@@ -150,18 +144,12 @@
 
         android:layout_height="0dp"
 
-        android:layout_marginEnd="60dp"
-
-        android:layout_marginBottom="31dp"
-
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="30dp"
         android:text="700"
-
         app:layout_constraintBottom_toTopOf="@+id/tv11"
-
         app:layout_constraintEnd_toStartOf="@+id/tv9"
-
         app:layout_constraintStart_toEndOf="@+id/tv7"
-
         app:layout_constraintTop_toBottomOf="@+id/tv5" />
 
 
@@ -173,18 +161,12 @@
 
         android:layout_height="0dp"
 
-        android:layout_marginEnd="28dp"
-
-        android:layout_marginBottom="38dp"
-
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="36dp"
         android:text="20000"
-
         app:layout_constraintBottom_toTopOf="@+id/tv12"
-
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toEndOf="@+id/tv8"
-
         app:layout_constraintTop_toBottomOf="@+id/tv6" />
 
 
@@ -197,19 +179,12 @@
         android:layout_height="0dp"
 
         android:layout_marginStart="9dp"
-
         android:layout_marginEnd="46dp"
-
-        android:layout_marginBottom="29dp"
-
+        android:layout_marginBottom="31dp"
         android:text="Plumber"
-
         app:layout_constraintBottom_toTopOf="@+id/tv16"
-
         app:layout_constraintEnd_toStartOf="@+id/tv14"
-
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintTop_toBottomOf="@+id/tv10" />
 
 
@@ -221,18 +196,12 @@
 
         android:layout_height="0dp"
 
-        android:layout_marginEnd="38dp"
-
-        android:layout_marginBottom="58dp"
-
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="59dp"
         android:text="450"
-
         app:layout_constraintBottom_toTopOf="@+id/tv17"
-
         app:layout_constraintEnd_toStartOf="@+id/tv15"
-
         app:layout_constraintStart_toEndOf="@+id/tv13"
-
         app:layout_constraintTop_toBottomOf="@+id/tv11" />
 
 
@@ -245,17 +214,11 @@
         android:layout_height="0dp"
 
         android:layout_marginEnd="30dp"
-
-        android:layout_marginBottom="346dp"
-
+        android:layout_marginBottom="200dp"
         android:text="13000"
-
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toEndOf="@+id/tv14"
-
         app:layout_constraintTop_toBottomOf="@+id/tv12" />
 
 
@@ -268,19 +231,12 @@
         android:layout_height="0dp"
 
         android:layout_marginStart="16dp"
-
         android:layout_marginEnd="39dp"
-
-        android:layout_marginBottom="75dp"
-
+        android:layout_marginBottom="28dp"
         android:text="Pest Control"
-
         app:layout_constraintBottom_toTopOf="@+id/btn_accept"
-
         app:layout_constraintEnd_toStartOf="@+id/tv17"
-
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintTop_toBottomOf="@+id/tv13" />
 
 
@@ -293,17 +249,11 @@
         android:layout_height="0dp"
 
         android:layout_marginEnd="160dp"
-
-        android:layout_marginBottom="255dp"
-
+        android:layout_marginBottom="32dp"
         android:text="750"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-
+        app:layout_constraintBottom_toTopOf="@+id/btn_accept"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toEndOf="@+id/tv16"
-
         app:layout_constraintTop_toBottomOf="@+id/tv14" />
 
 
@@ -318,11 +268,8 @@
         android:text="Computer/Mobile"
 
         app:layout_constraintBottom_toTopOf="parent"
-
         app:layout_constraintEnd_toStartOf="parent"
-
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintTop_toTopOf="parent" />
 
 
@@ -337,11 +284,8 @@
         android:text="500"
 
         app:layout_constraintBottom_toTopOf="parent"
-
         app:layout_constraintEnd_toStartOf="parent"
-
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintTop_toTopOf="parent" />
 
 
@@ -354,19 +298,12 @@
         android:layout_height="0dp"
 
         android:layout_marginStart="62dp"
-
         android:layout_marginEnd="62dp"
-
-        android:layout_marginBottom="125dp"
-
+        android:layout_marginBottom="30dp"
         android:text="OK"
-
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toBottomOf="@+id/tv16" />
+        app:layout_constraintTop_toBottomOf="@+id/tv17" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
