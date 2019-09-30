@@ -21,7 +21,7 @@ public class Salary_page extends AppCompatActivity {
         btn_accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent( getApplicationContext() , options.class );
+                Intent intent=new Intent( getApplicationContext() , worker_form_login.class );
                 startActivity(intent);
             }
         });
