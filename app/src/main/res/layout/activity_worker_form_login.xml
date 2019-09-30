@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="@+id/rb1"
-        app:layout_constraintTop_toBottomOf="@+id/rb1" />
+        app:layout_constraintStart_toStartOf="@+id/rbhouse"
+        app:layout_constraintTop_toBottomOf="@+id/rbhouse" />
 
     <TextView
         android:id="@+id/tvname"
@@ -72,8 +72,8 @@
         android:layout_marginEnd="8dp"
         android:text="Mobile No"
         app:layout_constraintBaseline_toBaselineOf="@+id/etno"
-        app:layout_constraintEnd_toEndOf="@+id/rb1"
-        app:layout_constraintStart_toStartOf="@+id/rb1" />
+        app:layout_constraintEnd_toEndOf="@+id/rbhouse"
+        app:layout_constraintStart_toStartOf="@+id/rbhouse" />
 
     <EditText
         android:id="@+id/etno"
@@ -87,17 +87,17 @@
         app:layout_constraintTop_toBottomOf="@+id/etage" />
 
     <RadioButton
-        android:id="@+id/rb1"
+        android:id="@+id/rbhouse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="House Cleaning"
-        app:layout_constraintBottom_toBottomOf="@+id/rb2"
+        app:layout_constraintBottom_toBottomOf="@+id/rbelectrician"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/rb2" />
+        app:layout_constraintTop_toTopOf="@+id/rbelectrician" />
 
     <RadioButton
-        android:id="@+id/rb2"
+        android:id="@+id/rbelectrician"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="54dp"
@@ -107,7 +107,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etno" />
 
     <RadioButton
-        android:id="@+id/rb3"
+        android:id="@+id/rbplumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -117,43 +117,43 @@
         app:layout_constraintTop_toTopOf="@+id/radioGroup" />
 
     <RadioButton
-        android:id="@+id/rb4"
+        android:id="@+id/rbmobile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
         android:layout_marginEnd="1dp"
         android:text="Carpenter"
-        app:layout_constraintEnd_toEndOf="@+id/rb2"
-        app:layout_constraintTop_toBottomOf="@+id/rb2" />
+        app:layout_constraintEnd_toEndOf="@+id/rbelectrician"
+        app:layout_constraintTop_toBottomOf="@+id/rbelectrician" />
 
     <RadioButton
-        android:id="@+id/rb5"
+        android:id="@+id/rbcomputer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="32dp"
         android:text="Computer/Mobile Repair"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rb3" />
+        app:layout_constraintTop_toBottomOf="@+id/rbplumber" />
 
     <RadioButton
-        android:id="@+id/rb6"
+        android:id="@+id/rbpest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="48dp"
         android:text="Pest Control"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rb4" />
+        app:layout_constraintTop_toBottomOf="@+id/rbmobile" />
 
     <Button
-        android:id="@+id/bf"
+        android:id="@+id/btnsubmit"
         android:layout_width="187dp"
         android:layout_height="34dp"
         android:layout_marginTop="35dp"
         android:text="Submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rb5" />
+        app:layout_constraintTop_toBottomOf="@+id/rbcomputer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

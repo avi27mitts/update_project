@@ -20,6 +20,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         // setting default screen to login.xml
         setContentView(R.layout.activity_login);
+
         btnLogin=(Button) findViewById(R.id.btnLogin);
         tvemail=(EditText) findViewById(R.id.tvemail);
         tvpassword=(EditText) findViewById(R.id.tvpassword);
