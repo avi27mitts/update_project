@@ -57,6 +57,7 @@ public class Customer_Signup extends AppCompatActivity {
         String phone =etphone.getText().toString().trim();
 
         if(TextUtils.isEmpty(name)  || TextUtils.isEmpty(email) || TextUtils.isEmpty(password) || TextUtils.isEmpty(phone) ){
+
             Toast.makeText(this,"Please Fill Your Entries correctly",Toast.LENGTH_LONG).show();
 
         }
