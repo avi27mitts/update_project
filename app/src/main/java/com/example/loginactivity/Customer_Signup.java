@@ -32,7 +32,7 @@ public class Customer_Signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer__signup);
 
-        databasecustomer= FirebaseDatabase.getInstance().getReference("fsignup");
+        databasecustomer= FirebaseDatabase.getInstance().getReference();
 
         etname= (EditText)findViewById(R.id.etname);
         etemail= (EditText)findViewById(R.id.etemail);
