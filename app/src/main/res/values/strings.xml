@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">loginActivity</string>
+    <string name="title_activity_customersignup">customersignup</string>
+    <string name="title_activity_customer_signin">CustomerSignin</string>
+
+    <array name="work">
+        <item>Dusting</item>
+        <item>Cleaning</item>
+        <item>Washing</item>
+    </array>
+
 </resources>

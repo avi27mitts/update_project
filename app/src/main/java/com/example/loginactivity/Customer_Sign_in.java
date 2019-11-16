@@ -7,24 +7,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Salary_page extends AppCompatActivity {
+public class Customer_Sign_in extends AppCompatActivity {
 
-    Button btn_accept;
+    Button btn_sign_up ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_salary_page);
+        setContentView(R.layout.activity_customer__sign_in);
 
-        btn_accept = findViewById(R.id.btn_accept);
+        btn_sign_up = findViewById(R.id.bsignin) ;
 
-        btn_accept.setOnClickListener(new View.OnClickListener() {
+        btn_sign_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent( getApplicationContext() , worker_login.class );
-                startActivity(intent);
+
+                Intent intent = new Intent(getApplicationContext() , Customer_Signup.class) ;
+                startActivity(intent) ;
+
             }
         });
-
     }
 }
